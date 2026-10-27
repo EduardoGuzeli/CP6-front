@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Aurora Café: cafés especiais, doces artesanais e momentos de tranquilidade.">
+
+    <title>Aurora Café | Um intervalo para você</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="cabecalho" id="inicio">
+
+        <a href="#inicio" class="marca">
+            <span class="marca-icone centralizar">☼</span>
+            <span>Aurora<span class="marca-destaque">.</span></span>
+        </a>
+
+        <button
+            class="menu-toggle"
+            type="button"
+            aria-label="Abrir menu"
+            aria-expanded="false"
+        >
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="navegacao" aria-label="Navegação principal">
+            <a href="#inicio" class="link-nav ativo">Início</a>
+            <a href="#historia" class="link-nav">Nossa essência</a>
+            <a href="#cardapio" class="link-nav">Cardápio</a>
+            <a href="#visite" class="link-nav">Visite-nos</a>
+        </nav>
+
+        <a href="#cardapio" class="botao-base botao-contorno cabecalho-acao">
+            Explorar cardápio <span>↗</span>
+        </a>
+
+    </header>
+
+    <main>
+
+        <!-- SEÇÃO PRINCIPAL -->
+        <section class="hero secao-container">
+
+            <div class="hero-conteudo">
+
+                <p class="sobretitulo">
+                    <span class="ponto"></span>
+                    CAFÉ FEITO COM CALMA
+                </p>
+
+                <h1>
+                    Seu dia merece<br>
+                    um <em>bom intervalo.</em>
+                </h1>
+
+                <p class="hero-descricao">
+                    Café especial, receitas artesanais e aquele cantinho
+                    acolhedor para desacelerar, nem que seja por alguns minutos.
+                </p>
+
+                <div class="hero-acoes">
+
+                    <a href="#cardapio" class="botao-base botao-principal">
+                        Descobrir sabores <span>↗</span>
+                    </a>
+
+                    <a href="#historia" class="link-simples">
+                        Conheça a Aurora <span>↓</span>
+                    </a>
+
+                </div>
+
+                <div class="hero-nota">
+
+                    <div class="avatares" aria-hidden="true">
+                        <span>☕</span>
+                        <span>♡</span>
+                        <span>✦</span>
+                    </div>
+
+                    <p>
+                        <strong>Pequenos momentos, grandes memórias.</strong>
+                        <br>
+                        <span>Feito com carinho, servido quentinho.</span>
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="hero-visual">
+
+                <div class="hero-foto">
+                    <img
+                        src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1100&q=85"
+                        alt="Interior aconchegante de uma cafeteria"
+                    >
+                </div>
+
+                <div class="selo-foto">
+                    <span>desde</span>
+                    <strong>2021</strong>
+                    <span>com afeto</span>
+                </div>
+
+                <div class="legenda-foto">
+                    <span class="legenda-linha"></span>
+                    Um lugar para chamar de pausa.
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- DIFERENCIAIS -->
+        <section class="faixa-destaques">
+
+            <div><span>✳</span> Grãos selecionados</div>
+            <div><span>✳</span> Feito na hora</div>
+            <div><span>✳</span> Receitas artesanais</div>
+            <div><span>✳</span> Um espaço acolhedor</div>
+
+        </section>
+
+        <!-- NOSSA ESSÊNCIA -->
+        <section class="essencia secao-container" id="historia">
+
+            <div class="essencia-imagem">
+
+                <img
+                    src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=85"
+                    alt="Xícara de café sobre uma mesa de madeira"
+                >
+
+                <div class="imagem-etiqueta">
+                    feito com
+                    <br>
+                    <strong>intenção.</strong>
+                </div>
+
+            </div>
+
+            <div class="essencia-conteudo">
+
+                <p class="sobretitulo">MAIS QUE UMA XÍCARA</p>
+
+                <h2>
+                    O melhor ingrediente<br>
+                    é <em>o tempo.</em>
+                </h2>
+
+                <p>
+                    A gente acredita que café bom não precisa de pressa.
+                    Por isso, escolhemos nossos grãos com cuidado, preparamos
+                    cada pedido na hora e deixamos espaço para as conversas
+                    acontecerem.
+                </p>
+
+                <p>
+                    Entre uma reunião e outra, num encontro especial ou só
+                    para curtir a própria companhia: tem sempre um lugar
+                    à sua espera por aqui.
+                </p>
+
+                <a href="#visite" class="link-simples">
+                    Vem conhecer a gente <span>→</span>
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- CARDÁPIO -->
+        <section class="cardapio secao-container" id="cardapio">
+
+            <div class="secao-topo">
+
+                <div>
+                    <p class="sobretitulo">ESCOLHAS DA CASA</p>
+
+                    <h2>
+                        Um sabor para cada <em>momento.</em>
+                    </h2>
+                </div>
+
+                <p class="secao-intro">
+                    Do primeiro gole da manhã ao docinho depois do almoço.
+                    Qual vai ser o seu favorito?
+                </p>
+
+            </div>
+
+            <!-- FILTROS -->
+            <div class="filtros" role="group" aria-label="Filtrar produtos">
+
+                <button class="filtro ativo" type="button" data-filtro="todos">
+                    Tudo
+                </button>
+
+                <button class="filtro" type="button" data-filtro="cafes">
+                    Cafés
+                </button>
+
+                <button class="filtro" type="button" data-filtro="doces">
+                    Doces
+                </button>
+
+            </div>
+
+            <!-- PRODUTOS -->
+            <div class="grade-produtos">
+
+                <article class="produto-card" data-categoria="cafes">
+
+                    <div class="produto-imagem">
+                        <img
+                            src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=700&q=85"
+                            alt="Cappuccino cremoso em uma xícara"
+                        >
+
+                        <span class="produto-tag">Queridinho</span>
+                    </div>
+
+                    <div class="produto-info">
+
+                        <div class="produto-titulo">
+                            <h3>Cappuccino da Casa</h3>
+                            <span class="preco">R$ 14,00</span>
+                        </div>
+
+                        <p>
+                            Espresso, leite vaporizado e uma camada delicada
+                            de cacau.
+                        </p>
+
+                        <button
+                            class="botao-base botao-adicionar"
+                            type="button"
+                            data-produto="Cappuccino da Casa"
+                            data-preco="14"
+                        >
+                            Adicionar <span>+</span>
+                        </button>
+
+                    </div>
+
+                </article>
+
+                <article class="produto-card" data-categoria="cafes">
+
+                    <div class="produto-imagem">
+                        <img
+                            src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=700&q=85"
+                            alt="Café coado servido em uma caneca"
+                        >
+
+                        <span class="produto-tag tag-claro">Clássico</span>
+                    </div>
+
+                    <div class="produto-info">
+
+                        <div class="produto-titulo">
+                            <h3>Coado Especial</h3>
+                            <span class="preco">R$ 9,00</span>
+                        </div>
+
+                        <p>
+                            Grãos brasileiros, notas suaves e aroma que abraça.
+                        </p>
+
+                        <button
+                            class="botao-base botao-adicionar"
+                            type="button"
+                            data-produto="Coado Especial"
+                            data-preco="9"
+                        >
+                            Adicionar <span>+</span>
+                        </button>
+
+                    </div>
+
+                </article>
+
+                <article class="produto-card" data-categoria="doces">
+
+                    <div class="produto-imagem">
+                        <img
+                            src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=85"
+                            alt="Bolo de chocolate com cobertura"
+                        >
+
+                        <span class="produto-tag tag-rosa">Artesanal</span>
+                    </div>
+
+                    <div class="produto-info">
+
+                        <div class="produto-titulo">
+                            <h3>Bolo de Chocolate</h3>
+                            <span class="preco">R$ 16,00</span>
+                        </div>
+
+                        <p>
+                            Massa fofinha, chocolate intenso e cobertura cremosa.
+                        </p>
+
+                        <button
+                            class="botao-base botao-adicionar"
+                            type="button"
+                            data-produto="Bolo de Chocolate"
+                            data-preco="16"
+                        >
+                            Adicionar <span>+</span>
+                        </button>
+
+                    </div>
+
+                </article>
+
+                <article class="produto-card" data-categoria="doces">
+
+                    <div class="produto-imagem">
+                        <img
+                            src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=700&q=85"
+                            alt="Croissant dourado recém-assado"
+                        >
+
+                        <span class="produto-tag tag-claro">
+                            Saindo do forno
+                        </span>
+                    </div>
+
+                    <div class="produto-info">
+
+                        <div class="produto-titulo">
+                            <h3>Croissant da Manhã</h3>
+                            <span class="preco">R$ 12,00</span>
+                        </div>
+
+                        <p>
+                            Folhado amanteigado, crocante por fora e macio
+                            por dentro.
+                        </p>
+
+                        <button
+                            class="botao-base botao-adicionar"
+                            type="button"
+                            data-produto="Croissant da Manhã"
+                            data-preco="12"
+                        >
+                            Adicionar <span>+</span>
+                        </button>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+            <!-- RESUMO DO PEDIDO -->
+            <aside class="pedido-resumo" aria-live="polite">
+
+                <div class="pedido-icone centralizar" aria-hidden="true">
+                    ☕
+                </div>
+
+                <div class="pedido-texto">
+                    <strong>Seu pedido começa aqui</strong>
+
+                    <span id="resumo-pedido">
+                        Você ainda não adicionou nenhum item.
+                    </span>
+                </div>
+
+                <div class="pedido-total">
+                    <span>Total parcial</span>
+                    <strong id="total-pedido">R$ 0,00</strong>
+                </div>
+
+                <button
+                    class="botao-base botao-limpar"
+                    id="limpar-pedido"
+                    type="button"
+                    disabled
+                >
+                    Limpar pedido
+                </button>
+
+            </aside>
+
+            <p class="aviso-pedido">
+                Demonstração interativa: o pedido não é enviado para uma
+                loja real.
+            </p>
+
+        </section>
+
+        <!-- CONTATO -->
+        <section class="convite" id="visite">
+
+            <div class="convite-conteudo">
+
+                <p class="sobretitulo">SUA PRÓXIMA PAUSA</p>
+
+                <h2>
+                    O café fica melhor<br>
+                    quando você <em>chega.</em>
+                </h2>
+
+                <p>
+                    Guarde um tempinho para você. A gente cuida do café.
+                </p>
+
+                <a href="mailto:oi@auroracafe.com" class="botao-base botao-claro">
+                    Fale com a gente <span>↗</span>
+                </a>
+
+            </div>
+
+            <div class="convite-detalhe" aria-hidden="true">☼</div>
+
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+
+        <div class="rodape-principal">
+
+            <a href="#inicio" class="marca marca-rodape">
+                <span class="marca-icone centralizar">☼</span>
+                <span>Aurora<span class="marca-destaque">.</span></span>
+            </a>
+
+            <p>
+                Um café, uma pausa,<br>
+                um dia um pouquinho melhor.
+            </p>
+
+            <div class="redes">
+                <a href="#visite" aria-label="Instagram">ig</a>
+                <a href="#visite" aria-label="Pinterest">p</a>
+                <a href="mailto:oi@auroracafe.com" aria-label="E-mail">@</a>
+            </div>
+
+        </div>
+
+        <div class="rodape-links">
+
+            <strong>Explore</strong>
+
+            <a href="#historia">Nossa essência</a>
+            <a href="#cardapio">Cardápio</a>
+            <a href="#visite">Contato</a>
+
+        </div>
+
+        <div class="rodape-horario">
+
+            <strong>Horário de funcionamento</strong>
+
+            <p>Segunda a sexta · 8h às 19h</p>
+            <p>Sábado e domingo · 9h às 17h</p>
+
+            <span>Rua das Flores, 120 · São Paulo, SP</span>
+
+        </div>
+
+        <div class="rodape-final">
+
+            <span>
+                © <span id="ano-atual">2026</span> Aurora Café.
+                Projeto fictício para fins educacionais.
+            </span>
+
+            <a href="#inicio">Voltar ao topo ↑</a>
+
+        </div>
+
+    </footer>
+
+    <!-- MENSAGEM DE INTERAÇÃO -->
+    <div
+        class="notificacao"
+        id="notificacao"
+        role="status"
+        aria-live="polite"
+    ></div>
+
+</body>
+</html>
