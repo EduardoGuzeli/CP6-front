@@ -95,8 +95,8 @@ Também é possível utilizar a extensão **Live Server** no Visual Studio Code 
 ## 👥 Integrantes
 
 - **Eduardo Guzeli Nogueira RM:571143**
-- **Diego Caio**
-- **Lucas dos Santos**
+- **Diego Caio RM:571718**
+- **Lucas dos Santos RM:572190**
 
 ## 🎯 Objetivo acadêmico
 
